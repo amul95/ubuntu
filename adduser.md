@@ -11,6 +11,10 @@
     Fir hum check karenge ki bana yaa ya nahi..
     
     ┌─[amul@Hacker]─[/home]
+    └──╼ $sudo cat /etc/passwd
+    # ye command use krke aap dekh skte ho
+    
+    ┌─[amul@Hacker]─[/home]
     └──╼ $ls -l /home/
     total 12
     drwxr-x--- 28 amul   amul   4096 Jul 24 17:41 amul
@@ -62,6 +66,10 @@
         Other []: 
     Is the information correct? [Y/n] Y
     
+    ┌─[amul@Hacker]─[/home]
+    └──╼ $sudo cat /etc/passwd
+    # ye command use krke aap dekh skte ho
+    
     ┌─[amul@Hacker]─[/etc/pam.d]
     └──╼ $ls -l /home/
     total 16
@@ -73,8 +81,8 @@
     # Humne dekha upr ki kitna simple command se ye user create hua aur home me bhi dekha ki yes create ho chuka hai 
       passwd set krna same method hai sudo passwd iron-man toh New passwod krke prompt hoga bas user create 
       
-# How to Remove Users
 
+# How to Remove Users
 
      ┌─[✗]─[amul@Hacker]─[/home]
      └──╼ $ sudo deluser thanos
