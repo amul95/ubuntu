@@ -46,8 +46,7 @@
     # -m = --mindays hua mtlb mimimum kitne dino tak passwd change krna zaruri hoga agar me -m ke baad value 0 dal doon toh on the spot us user ka 
     password change hona chahiye mtlb ki woh user jab bhi wapis login krega usse new password dena padega
    
-    
-# Setting a password policy
+   
 
     
     
