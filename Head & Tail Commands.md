@@ -1,7 +1,3 @@
-# Learn Linux
-
--- short me mene topics sb smjaye hue hai aapko asani rhaegi sajmne me toh shuru krte hai...
-
 # Head & Tail Command for Logs 
 
 -- humne logs kyaa hote hai ye jaana hai aaj tak mtlb ki ki system jo process krti hai uski logs hote hi hai bas hume usse dekhna hota hai uske path me jaa kar jese ki windows se event logger hota hai usse open krke pata chelga ki is windows systrm kis time kyaa hua hai thik wesa linux me bhi hota hai uske logs store hote hai " /var/logs/syslog " toh hume ye pata chal gya chlo ab hume ye dikkt hogi ki hum jab bhi ye open krenge toh bhot saare logs hume dikhenge ho skta hai 500 yaa 1000 yaa fir 20k logs ho skte hai toh hume thodi sare logs ki zarurt hai hme toh logs tb dekhene hote hai jab kuch issue ho jb koi service sahi se work naa kre aur hume usa error kyaa hai usse kaha issue ho rha hai woh sb find krne ka logs dekhte hai ki hum smj paaye isliye maan lo humne koi service start ki aur woh nhi hui toh hum turnt logs check krenge zaahir si baat hai ki woh sb niche hi honge mtlb latest wale logs toh niche hi honge naa jese 1st log 1 number se start hua that means ki niche uske baad saare naye wale niche hi honge toh muje sirf perticular service ka dekhna hai maan lo toh me grep krke bhi dekh skta hoon aur gar wesa nhi krta hoon head laga kar dekh skta hoon tail laga kar dekh skta hoon 
