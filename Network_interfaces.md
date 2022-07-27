@@ -26,3 +26,23 @@
 	
 	# Ab isse up bhi kr lete hai chlo 
 
+> Agar aapke ubuntu me ifconfig command run hota hai jo "net-tools"  me aata hai jisse hum aese install kr skte hai "sudo apt install net-tools" fir uske baad ifconfig type kroge toh output milega jesa hum windows terminal me use krte the.
+	
+-- Yes, fir aap ifconfig command se bhi interface up & down kr skte hai...
+	
+	┌─[amul@Hacker]─[~]
+	└──╼ $sudo ifconfig wlp3s0 down
+	
+	┌─[amul@Hacker]─[~]
+	└──╼ $ping google.com
+	ping: google.com: Temporary failure in name resolution
+	
+	┌─[✗]─[amul@Hacker]─[~]
+	└──╼ $sudo ifconfig wlp3s0 up
+	
+	┌─[amul@Hacker]─[~]
+	└──╼ $ping google.com
+	PING google.com (142.250.77.46) 56(84) bytes of data.
+	64 bytes from bom07s26-in-f14.1e100.net (142.250.77.46): icmp_seq=1 ttl=116 time=26.7 ms
+ 
+
