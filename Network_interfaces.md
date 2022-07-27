@@ -45,4 +45,6 @@
 	PING google.com (142.250.77.46) 56(84) bytes of data.
 	64 bytes from bom07s26-in-f14.1e100.net (142.250.77.46): icmp_seq=1 ttl=116 time=26.7 ms
  
+# Assigning static IP addresses
 
+	
