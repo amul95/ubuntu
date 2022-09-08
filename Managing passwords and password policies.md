@@ -45,9 +45,33 @@
     
     # -m = --mindays hua mtlb mimimum kitne dino tak passwd change krna zaruri hoga agar me -m ke baad value 0 dal doon toh on the spot us user ka 
     password change hona chahiye mtlb ki woh user jab bhi wapis login krega usse new password dena padega
-   
-   
 
-    
-    
- 
+# In-Depth of CHAGE Command
+![image](https://user-images.githubusercontent.com/38901699/189149494-00bc10e2-2efd-441c-8477-09c7aaf040df.png)
+       
+        Last password change					            : Jul 15, 2022
+        # mene july 15 ko apna passwd change kiaa thaa toh bas ye show karega ki mene last passwd kab change kia tha
+        
+        Password expires					                : Sep 13, 2022
+        # iska mtlb huaa ki aaj 8 sept huaa hai current date aur sep 13 ko mera expire ho jayega passwd itna smj aa gyaa aapko
+        
+        Password inactive					                : never
+        # iska mtlb hai never kyun ki humne passwd abhi ta inactive nhi kiaa hai me kr bhi skta hoon uske baad kyaa hoga ki user ko passwd turnt change 
+          krna hoga on the spot 
+        
+        Account expires						                : Jul 12, 2023
+        # mera jo user hai amul woh account mera totaly expire bhi hoga uska date hai July 12 2023 me tab tak ye chlta rhega
+        # aur account expire ho gya mtlb naa hi amul user work krega aur naa hi amul user ka passwd 
+        
+        Minimum number of days between password change		: 7
+        # mene set kiaa huaa hai 7 days ki tab tak aapko apna passwd change krna hai 
+        
+        Maximum number of days between password change		: 60
+        # 60 days mtlb dekho mene passwd change kiaa hai 15th july ko tab se 60 dino kaa gap hoga apna 13th Sept aur us beech hume passwd change kr lena           hai humara toh ye huaa humara maximum
+        
+        Number of days of warning before password expires	: 7
+        # warning bole toh jab aap apna user login kroge screen pr toh aapko niche likha huaa aayega ki aap apna passwd change kro kyun ki humne time set 
+          kia hai 7 din warning kaa jisse user apna us dino ko bich change kr le 
+        
+        Ab muje apna jo passwd change krna padega but muje nhi krna hai toh me kyaa krunga mere jo maximum days hai 60 usko me badhake kr dia hoon 120           days uska mtlb ab ho gya nov tak aese me khel skta hoon 
+        
