@@ -132,5 +132,10 @@ LAN Port : sare de do kyun ki risk kyun lena
 Note : ab hume kahin aur se use krna hai toh hm private IP nhi daal skte hai hume public ip dalna hoga abhi mera public ip hai '27.57.172.249'
        toh ab ye use krna hai muje ftp aur samba ke liye apne liye jese upr sb user me ftp://27.57.172.249 likhna hai ab pehle hum sirf ftp:10.0.0.14 aese private likhte hai toh chlta hai kyun ki tb hum same network me the 
 
+# Sharing With Android Device
+
+-- ab mera ubuntu OS hai usme mene samba share kiaa apna ek folder par me apne android me dekhna chahta hoon toh kese dekh paunga uske liye FTP use nhi kr skta kyun ki uska port 21 hai aur samba 139 aur 445 ha toh ab kyaa ???
+
+-- simple hai x-plore  krke ek app download kr lo playstore se usme aap pehle FTP ka option use krte hai ab uske niche dekhna LAN wala option hoga usme aap apna server ip jo ubuntu ka hai aur jo user create kia hai woh daal do passwd bhi aur IP local daalna jab same network me ho aur aapko kahi aur se krna ho toh public daal dena uske liye kya krna hai upr hai hi,
 
 
