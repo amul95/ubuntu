@@ -1,0 +1,11 @@
+Ubuntu OS already hai aur muje usme apna windows 10 ka bootable usb stick banana hai 
+
+mene bhot try kia finally muje woh windows ki bootable usb bann ske woh software mil gya usko install krne ke liye kya krna 
+hai woh sb niche hai dekho 
+
+      sudo apt install git p7zip-full python3-pip python3-wxgtk4.0 grub2-common grub-pc-bin parted dosfstools ntfs-3g
+      # ye pehle kro uske baad niche wala 
+      
+      sudo pip3 install WoeUSB-ng
+      # bas isse woh install ho jayega 
+
